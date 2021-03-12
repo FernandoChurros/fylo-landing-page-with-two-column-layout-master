@@ -1,0 +1,27 @@
+:root {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header {
+   font-family: "Raleway";
+}
+
+@media (max-width: 1000px) {
+   body {
+      padding: 0 2rem;
+   }
+}
+
+@media (min-width: 1000px) {
+   body {
+      padding: 0 4rem;
+   }
+}
+
+@media (max-width: 1000px) {}
+
+@media (min-width: 1000px) {}

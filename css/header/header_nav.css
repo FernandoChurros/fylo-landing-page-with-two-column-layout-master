@@ -1,0 +1,11 @@
+.header_nav {
+	font-size: 14px;
+}
+
+.header_nav a {
+	margin-right: 1rem;
+}
+
+.header_nav a:last-child {
+	margin-right: 0;
+}
