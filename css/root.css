@@ -1,4 +1,6 @@
-:root {}
+body {
+	line-height: 1.5;
+}
 
 h1,
 h2,
@@ -10,15 +12,31 @@ header {
    font-family: "Raleway";
 }
 
+section {
+   margin: 5rem 0;
+}
+
+input {
+   box-sizing: border-box;
+}
+
 @media (max-width: 1000px) {
    body {
       padding: 0 2rem;
+   }
+
+   img {
+      width: 100%;
    }
 }
 
 @media (min-width: 1000px) {
    body {
       padding: 0 4rem;
+   }
+
+   img {
+      width: 90%;
    }
 }
 

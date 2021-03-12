@@ -1,0 +1,7 @@
+a, button {
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: hsl(170, 45%, 43%)
+}

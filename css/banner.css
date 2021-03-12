@@ -1,0 +1,23 @@
+.banner {
+	display: flex;
+}
+
+@media (max-width: 1000px) {
+	.banner {
+		flex-flow: column;
+		grid-gap: 2rem;
+		text-align: center;
+	}
+}
+
+@media (min-width: 1000px) {
+	.banner {
+		flex-flow: row-reverse;
+		align-items: center;
+		grid-gap: 10rem;
+	}
+
+	.banner h1 {
+		font-size: 2rem;
+	}
+}
