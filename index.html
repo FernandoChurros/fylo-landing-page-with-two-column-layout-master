@@ -14,19 +14,23 @@
 
    <link rel="stylesheet" href="./css/reset.css">
    <link rel="stylesheet" href="./css/root.css">
+   <link rel="stylesheet" href="./css/base.css">
    <link rel="stylesheet" href="./css/header/header.css">
    <link rel="stylesheet" href="./css/header/header_nav.css">
-   <link rel="stylesheet" href="./css/banner.css">
-   <link rel="stylesheet" href="./css/banner_content.css">
+   <link rel="stylesheet" href="./css/banner/banner.css">
+   <link rel="stylesheet" href="./css/banner/banner_content.css">
    <link rel="stylesheet" href="./css/cadastre.css">
+   <link rel="stylesheet" href="./css/beneficios/beneficios.css">
+   <link rel="stylesheet" href="./css/beneficios/beneficios_comment.css">
+   <link rel="stylesheet" href="./css/register/register.css">
+   <link rel="stylesheet" href="./css/register/register_form.css">
 
    <link rel="stylesheet" href="./css/active.css">
-
 </head>
 
 <body>
 
-   <header class="header">
+   <header class="header ">
       <img class="header_logo" src="./images/logo.svg" alt="Logo da empresa">
 
       <nav class="header_nav">
@@ -36,7 +40,7 @@
       </nav>
    </header>
 
-   <section class="banner">
+   <section class="banner base">
       <img src="./images/bg/illustration-1.svg" alt="">
 
       <div class="banner_content">
@@ -46,37 +50,58 @@
             Access them wherever you need, share and collaborate with friends,
             family, and co-workers.</p>
 
-         <form class="cadastre" action="">
+         <form class="cadastre">
             <input class="--i_form" type="email" placeholder="Enter your email..." required>
             <button class="btn --i_form" type="button">Get Started</button>
          </form>
       </div>
    </section>
 
-   <!-- Stay productive, wherever you are
+   <section class="beneficios base">
+      <img src="./images/bg/illustration-2.svg" alt="">
 
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
+      <div class="wrapper_beneficios">
+         <h2 class="beneficios_title">Stay productive, wherever you are</h2>
 
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
+         <p>Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.</p>
 
-  See how Fylo works
+         <p>Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!</p>
 
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
+         <a class="beneficios_link" href="#">See how Fylo works</a>
 
-  Kyle Burton
-  Founder & CEO, Huddle
+         <article class="beneficios_comment">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since
+               making the switch our team has become a well-oiled collaboration machine.</p>
 
-  Get early access today
+            <div class="comment_people">
+               <img class="people_img" src="./images/avatar-testimonial.jpg" alt="Kyle Burton">
 
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
+               <div class="people_name">
+                  <h3>Kyle Burton</h3>
+                  <p>Founder & CEO, Huddle</p>
+               </div>
+            </div>
+         </article>
+      </div>
+   </section>
 
-  Get Started For Free
+   <section class="register base">
+      <div class="register_title">
+         <h2>Get early access today</h2>
 
-  Phone: +1-543-123-4567
+         <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+            If you have any questions, our support team would be happy to help you.</p>
+      </div>
+
+      <form class="register_form cadastre">
+         <input class="--i_form" type="email" placeholder="email@example.com" required>
+         <button class="btn --i_form">Get Started For Free</button>
+      </form>
+   </section>
+
+   <!-- Phone: +1-543-123-4567
   example@fylo.com
 
   About Us

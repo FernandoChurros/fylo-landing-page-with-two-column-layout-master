@@ -1,0 +1,51 @@
+.beneficios {
+	color: rgba(0,0,0,.7);
+	grid-gap: 5rem;
+	background-color: hsl(240, 75%, 98%);
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.wrapper_beneficios {
+	display: flex;
+	flex-flow: column;
+	grid-gap: 2rem;
+}
+
+.beneficios_title {
+	color: rgba(0,0,0,1);
+}
+
+.beneficios_link {
+	color: hsl(170, 45%, 43%);
+	border-bottom: 2px solid hsl(170, 45%, 43%);
+	width: max-content;
+}
+
+.beneficios_link::after {
+	content: url("../images/icons/icon-arrow.svg");
+}
+
+@media (max-width: 1000px) {
+	.beneficios {
+		flex-flow: column;
+	}
+
+	.beneficios_title {
+		text-align: center;
+	}
+
+	.beneficios_link {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1000px) {
+	.beneficios {
+		flex-flow: row-reverse;
+	}
+
+	.beneficios_title {
+		font-size: 2rem;
+	}
+}

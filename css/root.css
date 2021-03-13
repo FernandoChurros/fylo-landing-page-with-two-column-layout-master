@@ -1,5 +1,7 @@
 body {
-	line-height: 1.5;
+   background-color: #FFF;
+   font-family: "Open Sans";
+   line-height: 1.5;
 }
 
 h1,
@@ -12,8 +14,10 @@ header {
    font-family: "Raleway";
 }
 
-section {
-   margin: 5rem 0;
+img {
+   align-self: center;
+   object-fit: contain;
+   width: 70%;
 }
 
 input {
@@ -21,22 +25,26 @@ input {
 }
 
 @media (max-width: 1000px) {
-   body {
+
+   header,
+   footer {
       padding: 0 2rem;
    }
 
-   img {
-      width: 100%;
+   section {
+      padding: 5rem 2rem;
    }
 }
 
 @media (min-width: 1000px) {
-   body {
+
+   header,
+   footer {
       padding: 0 4rem;
    }
 
-   img {
-      width: 90%;
+   section {
+      padding: 5rem 4rem;
    }
 }
 

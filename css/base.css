@@ -1,0 +1,12 @@
+.base {
+	display: flex;
+	grid-gap: 2rem;
+}
+
+@media (max-width: 1000px) {
+	.base {
+		flex-flow: column;
+	}
+}
+
+@media (min-width: 1000px) {}
