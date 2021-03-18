@@ -1,4 +1,4 @@
-.--i_form {
+.i_form {
    padding: 1rem;
    border-radius: 3px;
 }
@@ -16,7 +16,7 @@
 }
 
 @media (max-width: 1000px) {
-   .--i_form {
+   .i_form {
       display: block;
       width: 100%;
    }
