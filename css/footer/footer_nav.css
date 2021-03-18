@@ -1,0 +1,17 @@
+.nav_link {
+   grid-gap: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+   .footer_nav {
+      grid-gap: 15rem;
+   }
+
+   .footer_nav a:hover {
+      color: hsl(224, 93%, 58%);
+   }
+
+   .nav_link {
+      flex-direction: column;
+   }
+}

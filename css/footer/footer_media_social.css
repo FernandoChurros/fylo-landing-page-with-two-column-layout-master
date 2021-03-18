@@ -1,0 +1,9 @@
+.footer_media_social {
+   display: flex;
+   justify-content: center;
+   grid-gap: 1rem;
+}
+
+.footer_media_social img {
+   width: 32px;
+}

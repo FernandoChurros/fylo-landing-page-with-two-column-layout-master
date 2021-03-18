@@ -25,6 +25,7 @@
    <link rel="stylesheet" href="./css/register/register.css">
    <link rel="stylesheet" href="./css/register/register_form.css">
    <link rel="stylesheet" href="./css/footer/footer.css">
+   <link rel="stylesheet" href="./css/footer/footer_nav.css">
    <link rel="stylesheet" href="./css/footer/footer_media_social.css">
 
    <link rel="stylesheet" href="./css/active.css">
@@ -42,76 +43,79 @@
       </nav>
    </header>
 
-   <section class="banner base">
-      <img class="bg_ilustration" src="./images/bg/illustration-1.svg" alt="">
+   <main>
+      <section class="banner base">
+         <img class="bg_ilustration" src="./images/bg/illustration-1.svg" alt="">
 
-      <div class="banner_content">
-         <h1>All your files in one secure location, accessible anywhere.</h1>
+         <div class="banner_content">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
 
-         <p>Fylo stores your most important files in one secure location.
-            Access them wherever you need, share and collaborate with friends,
-            family, and co-workers.</p>
+            <p>Fylo stores your most important files in one secure location.
+               Access them wherever you need, share and collaborate with friends,
+               family, and co-workers.</p>
 
-         <form class="cadastre">
-            <input class="--i_form" type="email" placeholder="Enter your email..." required>
-            <button class="btn --i_form" type="button">Get Started</button>
-         </form>
-      </div>
-   </section>
+            <form class="cadastre">
+               <input class="--i_form" type="email" placeholder="Enter your email..." required>
+               <button class="btn --i_form" type="button">Get Started</button>
+            </form>
+         </div>
+      </section>
 
-   <section class="beneficios base">
-      <img class="bg_ilustration" src="./images/bg/illustration-2.svg" alt="">
+      <section class="beneficios base">
+         <img class="bg_ilustration" src="./images/bg/illustration-2.svg" alt="">
 
-      <div class="wrapper_beneficios">
-         <h2 class="beneficios_title">Stay productive, wherever you are</h2>
+         <div class="wrapper_beneficios">
+            <h2 class="beneficios_title">Stay productive, wherever you are</h2>
 
-         <p>Never let location be an issue when accessing your files. Fylo has you
-            covered for all of your file storage needs.</p>
+            <p>Never let location be an issue when accessing your files. Fylo has you
+               covered for all of your file storage needs.</p>
 
-         <p>Securely share files and folders with friends, family and colleagues for
-            live collaboration. No email attachments required!</p>
+            <p>Securely share files and folders with friends, family and colleagues for
+               live collaboration. No email attachments required!</p>
 
-         <a class="beneficios_link" href="#">See how Fylo works</a>
+            <a class="beneficios_link" href="#">See how Fylo works</a>
 
-         <article class="beneficios_comment">
-            <p>Fylo has improved our team productivity by an order of magnitude. Since
-               making the switch our team has become a well-oiled collaboration machine.</p>
+            <article class="beneficios_comment">
+               <p>Fylo has improved our team productivity by an order of magnitude. Since
+                  making the switch our team has become a well-oiled collaboration machine.</p>
 
-            <div class="comment_people">
-               <img class="people_img" src="./images/avatar-testimonial.jpg" alt="Kyle Burton">
+               <div class="comment_people">
+                  <img class="people_img" src="./images/avatar-testimonial.jpg" alt="Kyle Burton">
 
-               <div class="people_name">
-                  <h3>Kyle Burton</h3>
-                  <p>Founder & CEO, Huddle</p>
+                  <div class="people_name">
+                     <h3>Kyle Burton</h3>
+                     <p>Founder & CEO, Huddle</p>
+                  </div>
                </div>
-            </div>
-         </article>
-      </div>
-   </section>
+            </article>
+         </div>
+      </section>
 
-   <section class="register base">
-      <div class="register_title">
-         <h2>Get early access today</h2>
+      <section class="register base">
+         <div class="register_title">
+            <h2>Get early access today</h2>
 
-         <p>It only takes a minute to sign up and our free starter tier is extremely generous.
-            If you have any questions, our support team would be happy to help you.</p>
-      </div>
+            <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+               If you have any questions, our support team would be happy to help you.</p>
+         </div>
 
-      <form class="register_form cadastre">
-         <input class="--i_form" type="email" placeholder="email@example.com" required>
-         <button class="btn --i_form">Get Started For Free</button>
-      </form>
-   </section>
-
+         <form class="register_form cadastre">
+            <input class="--i_form" type="email" placeholder="email@example.com" required>
+            <button class="btn --i_form">Get Started For Free</button>
+         </form>
+      </section>
+   </main>
    <footer class="footer base">
-      <img class="footer_logo logo" src="./images/logo.svg" alt="Logo da Huddle">
+      <div>
+         <img class="footer_logo logo" src="./images/logo.svg" alt="Logo da Huddle">
 
-      <address class="footer_contato">
-         <a class="phone" href="#">Phone: +1-543-123-4567</a>
-         <a class="email" href="#">example@fylo.com</a>
-      </address>
+         <address class="footer_contato">
+            <a class="phone" href="#">Phone: +1-543-123-4567</a>
+            <a class="email" href="#">example@fylo.com</a>
+         </address>
+      </div>
 
-      <nav class="base">
+      <nav class="footer_nav base">
          <div class="nav_link base">
             <a href="#"> About Us</a>
             <a href="#"> Jobs</a>
@@ -128,15 +132,21 @@
 
       <ul class="footer_media_social">
          <li>
-            <a class="icon_facebook" href="#">Facebook</a>
+            <a href="#">
+               <img class="icon_facebook" src="./images/icons/icon_facebook.svg">
+            </a>
          </li>
          
          <li>
-            <a class="icons_instagram" href="#">Instagram</a>
+            <a href="#">
+               <img class="icons_instagram" src="./images/icons/icon_instagram.svg">
+            </a>
          </li>
 
          <li>
-            <a class="icon_twitter" href="#">Twitter</a>
+            <a href="#">
+               <img class="icon_twitter" src="./images/icons/icon_twitter.svg">
+            </a>
          </li>
       </ul>
    </footer>

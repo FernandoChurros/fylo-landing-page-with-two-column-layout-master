@@ -14,10 +14,6 @@
 	margin-bottom: .5rem;
 }
 
-.nav_link {
-	grid-gap: 1rem;
-}
-
 .phone::before {
 	content: url("../../images/icons/icon-phone.svg");
 	margin-right: 1rem;
@@ -26,4 +22,10 @@
 .email::before {
 	content: url("../../images/icons/icon-email.svg");
 	margin-right: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+	.footer {
+		grid-gap: 15rem;
+	}
 }

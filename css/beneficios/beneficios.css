@@ -2,8 +2,10 @@
 	color: rgba(0,0,0,.7);
 	grid-gap: 5rem;
 	background-color: hsl(240, 75%, 98%);
-	padding-top: 5rem;
+	padding-top: 10rem;
 	padding-bottom: 5rem;
+	border-top-left-radius: 2000px 250px;
+	border-top-right-radius: 2000px 250px;
 }
 
 .wrapper_beneficios {
