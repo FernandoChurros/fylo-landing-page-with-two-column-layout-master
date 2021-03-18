@@ -1,0 +1,29 @@
+.footer {
+	background-color: hsl(243, 87%, 12%);
+	color: white;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+
+.footer_logo {
+	width: 200px;
+}
+
+.footer_contato a {
+	display: block;
+	margin-bottom: .5rem;
+}
+
+.nav_link {
+	grid-gap: 1rem;
+}
+
+.phone::before {
+	content: url("../../images/icons/icon-phone.svg");
+	margin-right: 1rem;
+}
+
+.email::before {
+	content: url("../../images/icons/icon-email.svg");
+	margin-right: 1rem;
+}

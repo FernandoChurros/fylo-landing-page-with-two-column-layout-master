@@ -14,7 +14,7 @@ header {
    font-family: "Raleway";
 }
 
-img {
+.bg_ilustration {
    align-self: center;
    object-fit: contain;
    width: 70%;
